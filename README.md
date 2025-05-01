@@ -1,4 +1,4 @@
-# Project Description
+# GeoMapper
 
 The Windows on Earth program receives astronaut photos from the International Space Station (ISS). We know the location of the ISS when the photo was taken, but not what the photo is of. This project seeks to use image recognition/machine learning to attempt to geolocate the images automatically. We have a website at [Windows on Earth](https://www.windowsonearth.org/). Our goal is to accurately "predict" the location of the image.
 
@@ -54,11 +54,19 @@ Tips for Best Results
 - ISS Coordinates: Providing accurate ISS coordinates at the time of the image capture significantly enhances location prediction accuracy. However, if the location of the ISS is quite far from the location in the image, it might cause inaccurate identification.
 
 
-# Find a detailed account of the research, experimentation and evaluations at [dev/README.md](./dev/README.md)
+# Find a detailed account of the research, experimentation and evaluations at [dev_README.md](./dev_README.md)
 
 
-# [Project Members](./COLLABORATORS)
+# Cite as
+```bib
+@misc{srivastava2025geolocatingearthimageryiss,
+      title={Geolocating Earth Imagery from ISS: Integrating Machine Learning with Astronaut Photography for Enhanced Geographic Mapping}, 
+      author={Vedika Srivastava and Hemant Kumar Singh and Jaisal Singh},
+      year={2025},
+      eprint={2504.21194},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.21194}, 
+}
+```
 
-- [Hemant Kumar Singh](https://github.com/hemantsingh11)
-- [Jaisal Singh](https://github.com/jaisal64)
-- [Vedika Srivastava](https://github.com/VedikaSrivastava)
